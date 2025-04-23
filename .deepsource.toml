@@ -1,6 +1,9 @@
 version = 1
 
 [[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
 name = "python"
 
   [analyzers.meta]
@@ -11,9 +14,3 @@ name = "docker"
 
 [[analyzers]]
 name = "secrets"
-
-[[analyzers]]
-name = "test-coverage"
-
-  [analyzers.meta]
-  coverage_paths = ["coverage/lcov.info"]
