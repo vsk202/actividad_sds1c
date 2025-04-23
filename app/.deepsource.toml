@@ -12,5 +12,5 @@ name = "secrets"
 [[analyzers]]
 name = "test-coverage"
 
-[analyzers.meta]
-coverage_paths = ["coverage/lcov.info"]
+  [analyzers.meta]
+  coverage_paths = ["coverage/lcov.info"]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1745425251747" clover="3.2.0">
-  <project timestamp="1745425251748" name="All files">
+<coverage generated="1745428752592" clover="3.2.0">
+  <project timestamp="1745428752592" name="All files">
     <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="16" coveredelements="16" complexity="0" loc="13" ncloc="13" packages="1" files="3" classes="3"/>
     <file name="deleteItem.js" path="C:\proyectos\UE\desarrollo seguro\repo_demo\actividad_sdslc\app\src\routes\deleteItem.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
