@@ -3,11 +3,11 @@ version = 1
 [[analyzers]]
 name = "python"
 
-[[analyzers]]
-name = "docker"
+[analyzers.meta]
+runtime_version = "3.x.x"
 
 [[analyzers]]
-name = "secrets"
+name = "docker"
 
 [[analyzers]]
 name = "test-coverage"
