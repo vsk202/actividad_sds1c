@@ -1,16 +1,16 @@
 version = 1
 
 [[analyzers]]
-name = "test-coverage"
+name = "python"
+
+[[analyzers]]
+name = "docker"
 
 [[analyzers]]
 name = "secrets"
 
 [[analyzers]]
-name = "python"
+name = "test-coverage"
 
-  [analyzers.meta]
-  runtime_version = "3.x.x"
-
-[[analyzers]]
-name = "docker"
+[analyzers.meta]
+coverage_paths = ["coverage/lcov.info"]
